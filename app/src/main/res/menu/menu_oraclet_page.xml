@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/action_subscribe"
+        android:title="@string/subscribe"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_graph"
+        android:title="@string/showGraph"
+        android:icon="@drawable/graph"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_contradiction"
+        android:orderInCategory="100"
+        android:title="@string/showContradiction"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_comment"
+        android:orderInCategory="200"
+        android:title="@string/showComment"
+        app:showAsAction="never" />
+
+</menu>

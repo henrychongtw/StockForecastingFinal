@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        card_view:cardBackgroundColor="#A6000000"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PredictorName"
+                android:id="@+id/tvPredictorName"
+                android:textColor="#E9B405"
+                android:textSize="9pt"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="9dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ResultStatus"
+                android:id="@+id/tvSubResultStatus"
+                android:textColor="#E9B405"
+                android:textSize="9pt"
+                android:layout_marginTop="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PredictNumber"
+                android:id="@+id/tvPredictNumber"
+                android:textColor="#FFFFFF"
+                android:textSize="9pt"
+                android:layout_alignTop="@+id/tvTargetName"
+                android:layout_alignRight="@+id/tvSubResultStatus"
+                android:layout_alignEnd="@+id/tvSubResultStatus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TargetName"
+                android:id="@+id/tvTargetName"
+                android:textColor="#FFFFFF"
+                android:textSize="9pt"
+                android:layout_below="@+id/tvPredictorName"
+                android:layout_alignLeft="@+id/tvPredictorName"
+                android:layout_alignStart="@+id/tvPredictorName" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

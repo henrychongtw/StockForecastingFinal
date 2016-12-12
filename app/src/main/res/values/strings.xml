@@ -1,0 +1,57 @@
+<resources>
+    <string name="appp_name">Android Login and Registration</string>
+    <string name="hint_email">電子信箱</string>
+    <string name="hint_password">密碼</string>
+    <string name="hint_name">您的大名</string>
+    <string name="btn_login">登入</string>
+    <string name="btn_register">註冊</string>
+    <string name="btn_link_to_register">還不是會員嗎? 點擊註冊吧!</string>
+    <string name="btn_link_to_login">已經註冊了? 點擊登入吧!</string>
+    <string name="welcome">歡迎</string>
+    <string name="btn_logout">登出</string>
+    <string name="name">全名</string>
+
+    <string name="app_name">股票預測驗證</string>
+    <string name="home">首頁</string>
+    <string name="about">關於我們</string>
+    <string name="report">回報問題</string>
+    <string name="subscription">訂閱</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設定</string>
+    <string name="next">繼續</string>
+    <string name="skip">跳過</string>
+    <string name="start">GOT IT</string>
+
+    <string name="oraclet">卜卦資訊</string>
+    <string name="msg_NoNetwork">沒有網路連接</string>
+    <string name="showGraph">顯示圖形</string>
+    <string name="graph">長條圖</string>
+    <string name="title_graph_activity">Graphs from MPcharts</string>
+    <string name="Back">返回</string>
+    <string name="hotOraclet">搜尋熱門卜卦</string>
+    <string name="StockID">輸入股票號碼，例如：2823</string>
+    <string name="submitID"></string>
+    <string name="submitDate"></string>
+    <string name="subscribe">訂閱</string>
+    <string name="noID">無效的號碼</string>
+    <string name="noDate">無效的日期</string>
+
+    <string name="showComment">顯示留言</string>
+    <string name="Date">輸入日期，雙擊可選日期</string>
+    <string name="subscribed">訂閱成功!</string>
+    <string name="showContradiction">顯示矛盾預測</string>
+    <string name="dataChange">更新</string>
+
+    <string name="Sell">賣出列表</string>
+    <string name="buy">買進列表</string>
+
+
+
+
+
+
+
+
+</resources>

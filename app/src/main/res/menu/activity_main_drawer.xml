@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_hotOraclet"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="@string/hotOraclet" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/subscription" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_user"
+            android:title="@string/btn_logout" />
+    </group>
+
+</menu>

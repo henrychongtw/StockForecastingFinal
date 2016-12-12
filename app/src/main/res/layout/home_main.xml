@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCode"
+            android:hint="@string/StockID"
+            android:textColorHint="#A0A0A0"
+            android:textColor="#000000"
+            android:inputType="number"
+            android:layout_weight="0.88" />
+
+        <Button
+            android:id="@+id/btSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submitID"
+            android:textColor="@color/background"
+            android:background="@android:drawable/ic_menu_send"
+            android:layout_weight="0.12"
+            android:backgroundTint="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDate"
+            android:hint="@string/Date"
+            android:textColorHint="#A0A0A0"
+            android:textColor="#000000"
+            android:layout_weight="0.88" />
+
+        <Button
+            android:id="@+id/btSubmitDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submitDate"
+            android:textColor="@color/background"
+            android:background="@android:drawable/ic_menu_send"
+            android:backgroundTint="#000000"
+            android:layout_weight="0.12" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvOraclet"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+</LinearLayout>

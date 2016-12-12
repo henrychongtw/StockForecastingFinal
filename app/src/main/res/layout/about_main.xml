@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/side_nav_bar">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ivLogo"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Created by students of NTUST Interactive Lab"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ivLogo"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Henry Chong"
+            android:textSize="15dp"
+            android:id="@+id/tv4"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView3"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="張啓邦"
+            android:textSize="15dp"
+            android:id="@+id/tv5"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv4"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="李姵瑩"
+            android:textSize="15dp"
+            android:id="@+id/tv6"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv5"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Special Thanks to"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/tv7"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv6"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Professor Sheng-Luen Chung, Director of Interactive Lab "
+            android:textSize="15dp"
+            android:id="@+id/tv8"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv7"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ron Huang, Lecturer of Android Class"
+            android:textSize="15dp"
+            android:id="@+id/tv9"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv8"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="戴鈺展"
+            android:textSize="15dp"
+            android:id="@+id/tv10"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv9"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="林威佑"
+            android:textSize="15dp"
+            android:id="@+id/tv11"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv10"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</RelativeLayout>

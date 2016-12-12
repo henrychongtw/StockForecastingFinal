@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "269536033855",
+    "firebase_url": "https://stockforecasting-2a4b7.firebaseio.com",
+    "project_id": "stockforecasting-2a4b7",
+    "storage_bucket": "stockforecasting-2a4b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269536033855:android:a528245912169b09",
+        "android_client_info": {
+          "package_name": "tw.edu.ntust.stockoraclet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269536033855-al2cfn4s2st8mqrbsirb338ardjm4mll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tw.edu.ntust.stockoraclet",
+            "certificate_hash": "B9BA7DB5B50F8C14FBC2FDBD47B5646449FB4B65"
+          }
+        },
+        {
+          "client_id": "269536033855-g23t3c7q7tprjks7fu2ug81hsmjqcoso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3yDPFvnNRm0gAuU81R09uuTZt5tm-NTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269536033855-g23t3c7q7tprjks7fu2ug81hsmjqcoso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
